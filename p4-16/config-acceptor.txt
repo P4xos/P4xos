@@ -1,0 +1,9 @@
+table_add arp_tbl handle_arp_request 1 =>
+table_add arp_tbl handle_arp_reply 2 =>
+table_add icmp_tbl handle_icmp_request 8 =>
+table_add icmp_tbl handle_icmp_reply 0 =>
+table_add acceptor_tbl handle_1a 0 => 34952
+table_add acceptor_tbl handle_2a 2 => 34952
+register_write registerAcceptorID 0 1
+register_write my_mac_address 0 18838586676582
+register_write my_ip_address 0 3232236641

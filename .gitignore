@@ -1,0 +1,10 @@
+build/
+tests/
+*.pcap
+*.hdl
+*.json
+*.log
+*.pyc
+test_app/build
+*DS_Store
+*.o*
